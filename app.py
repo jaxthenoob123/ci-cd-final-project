@@ -12,4 +12,3 @@ if __name__ == "__main__":
     print("Starting server on port 8000...", flush=True)
     server = HTTPServer(("0.0.0.0", 8000), SimpleHTTPRequestHandler)
     server.serve_forever()
-    
